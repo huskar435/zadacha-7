@@ -5,11 +5,11 @@ a = int(data[0])
 b = int(data[1])
 c = int(data[2])
 d = 0
-if (a > b) and (a > c):
+if (a >= b) and (a >= c):
     d = a
-elif (b > a) and (b > c):
+elif (b >= a) and (b >= c):
     d = b
-elif (c > a) and (c > b):
+elif (c >= a) and (c >= b):
     d = c 
 d = str(d)    
 output_data = open("output.txt","w")
